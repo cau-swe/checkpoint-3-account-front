@@ -14,6 +14,7 @@
 		9EE1FD902662A27700349780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE1FD8F2662A27700349780 /* Assets.xcassets */; };
 		9EE1FD932662A27700349780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE1FD912662A27700349780 /* LaunchScreen.storyboard */; };
 		9EE1FD9D2663F5DC00349780 /* AdminPageHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1FD9C2663F5DC00349780 /* AdminPageHomeViewController.swift */; };
+		9EE1FDA02663F62900349780 /* AddPizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1FD9F2663F62900349780 /* AddPizzaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9EE1FD922662A27700349780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EE1FD942662A27700349780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EE1FD9C2663F5DC00349780 /* AdminPageHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPageHomeViewController.swift; sourceTree = "<group>"; };
+		9EE1FD9F2663F62900349780 /* AddPizzaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPizzaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				9EE1FD882662A27500349780 /* SceneDelegate.swift */,
 				9EE1FD8A2662A27500349780 /* LoginViewController.swift */,
 				9EE1FD9C2663F5DC00349780 /* AdminPageHomeViewController.swift */,
+				9EE1FD9F2663F62900349780 /* AddPizzaViewController.swift */,
 				9EE1FD8C2662A27500349780 /* Main.storyboard */,
 				9EE1FD8F2662A27700349780 /* Assets.xcassets */,
 				9EE1FD912662A27700349780 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 				9EE1FD8B2662A27500349780 /* LoginViewController.swift in Sources */,
 				9EE1FD872662A27500349780 /* AppDelegate.swift in Sources */,
 				9EE1FD9D2663F5DC00349780 /* AdminPageHomeViewController.swift in Sources */,
+				9EE1FDA02663F62900349780 /* AddPizzaViewController.swift in Sources */,
 				9EE1FD892662A27500349780 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
