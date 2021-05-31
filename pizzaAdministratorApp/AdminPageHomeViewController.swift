@@ -11,9 +11,7 @@ class AdminPageHomeViewController: UIViewController {
 
     @IBAction func menuAdminPageButtonPressed(_ sender: Any) {
         guard let menuAdminPageViewController
- = self.storyboard?.instantiateViewController(identifier: "MenuAdminPageViewController") as? MenuAdminPageViewController else {
-            return
-        }
+ = self.storyboard?.instantiateViewController(identifier: "MenuAdminPageViewController") as? MenuAdminPageViewController else { return }
         
         // 다음 뷰로 연결
         self.navigationController?.pushViewController(        menuAdminPageViewController, animated: true)

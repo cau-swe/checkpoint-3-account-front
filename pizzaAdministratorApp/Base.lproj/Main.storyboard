@@ -203,13 +203,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="메뉴 정보" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mL-Ho-c0K">
-                                <rect key="frame" x="151.5" y="124" width="111" height="36"/>
+                                <rect key="frame" x="152" y="124" width="110.5" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="MenuAdminPageViewController" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dMc-aA-sdZ">
-                                <rect key="frame" x="0.0" y="220" width="414" height="642"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" restorationIdentifier="MenuAdminPageViewController" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dMc-aA-sdZ">
+                                <rect key="frame" x="0.0" y="220" width="414" height="563"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GeneralTableViewCell" rowHeight="117" id="d25-FI-DzJ" customClass="GeneralTableViewCell" customModule="pizzaAdministratorApp" customModuleProvider="target">
@@ -227,7 +227,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vp9-wa-cIC">
-                                                    <rect key="frame" x="157" y="30" width="42" height="21"/>
+                                                    <rect key="frame" x="157" y="30" width="41.5" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -274,6 +274,37 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="cdc-Kt-Xcp">
+                                <rect key="frame" x="20" y="792" width="374" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5DW-Kb-tce">
+                                        <rect key="frame" x="0.0" y="0.0" width="177" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="OrK-R7-HhN"/>
+                                        </constraints>
+                                        <state key="normal" title="메뉴 추가">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sic-hu-MBO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20P-HS-cax">
+                                        <rect key="frame" x="197" y="0.0" width="177" height="50"/>
+                                        <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Di6-4t-89E"/>
+                                        </constraints>
+                                        <state key="normal" title="메뉴 삭제">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f22-eA-VkT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="t6P-TL-irI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -282,7 +313,10 @@
                             <constraint firstItem="2mL-Ho-c0K" firstAttribute="top" secondItem="t6P-TL-irI" secondAttribute="top" constant="80" id="KgA-Zd-FxP"/>
                             <constraint firstItem="dMc-aA-sdZ" firstAttribute="bottom" secondItem="t6P-TL-irI" secondAttribute="bottom" id="Qiy-sf-Vuf"/>
                             <constraint firstItem="dMc-aA-sdZ" firstAttribute="top" secondItem="2mL-Ho-c0K" secondAttribute="bottom" constant="60" id="TdX-rW-iag"/>
+                            <constraint firstItem="t6P-TL-irI" firstAttribute="bottom" secondItem="cdc-Kt-Xcp" secondAttribute="bottom" constant="20" id="e34-dH-jbn"/>
+                            <constraint firstItem="t6P-TL-irI" firstAttribute="trailing" secondItem="cdc-Kt-Xcp" secondAttribute="trailing" constant="20" id="fXx-u6-0d6"/>
                             <constraint firstItem="dMc-aA-sdZ" firstAttribute="leading" secondItem="t6P-TL-irI" secondAttribute="leading" id="vAO-xD-qrQ"/>
+                            <constraint firstItem="cdc-Kt-Xcp" firstAttribute="leading" secondItem="t6P-TL-irI" secondAttribute="leading" constant="20" id="yum-9g-blM"/>
                             <constraint firstItem="2mL-Ho-c0K" firstAttribute="centerX" secondItem="t6P-TL-irI" secondAttribute="centerX" id="zOp-BG-dlC"/>
                         </constraints>
                     </view>
