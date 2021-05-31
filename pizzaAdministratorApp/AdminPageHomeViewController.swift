@@ -10,8 +10,10 @@ import UIKit
 class AdminPageHomeViewController: UIViewController {
 
     @IBAction func menuAdminPageButtonPressed(_ sender: Any) {
+        
     }
     @IBAction func employeeAdminPageButtonPressed(_ sender: Any) {
+        
     }
     @IBAction func CustomerAdminPageButtonPressed(_ sender: Any) {
     }

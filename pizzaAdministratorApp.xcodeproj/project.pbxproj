@@ -16,8 +16,9 @@
 		9EE1FD9D2663F5DC00349780 /* AdminPageHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1FD9C2663F5DC00349780 /* AdminPageHomeViewController.swift */; };
 		9EE1FDA02663F62900349780 /* AddPizzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1FD9F2663F62900349780 /* AddPizzaViewController.swift */; };
 		9EE1FDA32663F65200349780 /* ReviewCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1FDA22663F65200349780 /* ReviewCheckViewController.swift */; };
-		9EE1FDA62663F69700349780 /* EmployeeManageHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1FDA52663F69700349780 /* EmployeeManageHomeViewController.swift */; };
+		9EE1FDA62663F69700349780 /* EmployeeAdminPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1FDA52663F69700349780 /* EmployeeAdminPageViewController.swift */; };
 		9EE1FDA92663F6D500349780 /* EmployeeInfoInsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1FDA82663F6D500349780 /* EmployeeInfoInsertViewController.swift */; };
+		9EE1FDAC26647A0800349780 /* MenuAdminPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1FDAB26647A0800349780 /* MenuAdminPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +33,9 @@
 		9EE1FD9C2663F5DC00349780 /* AdminPageHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPageHomeViewController.swift; sourceTree = "<group>"; };
 		9EE1FD9F2663F62900349780 /* AddPizzaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPizzaViewController.swift; sourceTree = "<group>"; };
 		9EE1FDA22663F65200349780 /* ReviewCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCheckViewController.swift; sourceTree = "<group>"; };
-		9EE1FDA52663F69700349780 /* EmployeeManageHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeManageHomeViewController.swift; sourceTree = "<group>"; };
+		9EE1FDA52663F69700349780 /* EmployeeAdminPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeAdminPageViewController.swift; sourceTree = "<group>"; };
 		9EE1FDA82663F6D500349780 /* EmployeeInfoInsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeInfoInsertViewController.swift; sourceTree = "<group>"; };
+		9EE1FDAB26647A0800349780 /* MenuAdminPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAdminPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +74,10 @@
 				9EE1FD9C2663F5DC00349780 /* AdminPageHomeViewController.swift */,
 				9EE1FD9F2663F62900349780 /* AddPizzaViewController.swift */,
 				9EE1FDA22663F65200349780 /* ReviewCheckViewController.swift */,
-				9EE1FDA52663F69700349780 /* EmployeeManageHomeViewController.swift */,
+				9EE1FDA52663F69700349780 /* EmployeeAdminPageViewController.swift */,
 				9EE1FDA82663F6D500349780 /* EmployeeInfoInsertViewController.swift */,
 				9EE1FD8C2662A27500349780 /* Main.storyboard */,
+				9EE1FDAB26647A0800349780 /* MenuAdminPageViewController.swift */,
 				9EE1FD8F2662A27700349780 /* Assets.xcassets */,
 				9EE1FD912662A27700349780 /* LaunchScreen.storyboard */,
 				9EE1FD942662A27700349780 /* Info.plist */,
@@ -156,9 +159,10 @@
 				9EE1FDA92663F6D500349780 /* EmployeeInfoInsertViewController.swift in Sources */,
 				9EE1FD872662A27500349780 /* AppDelegate.swift in Sources */,
 				9EE1FD9D2663F5DC00349780 /* AdminPageHomeViewController.swift in Sources */,
+				9EE1FDAC26647A0800349780 /* MenuAdminPageViewController.swift in Sources */,
 				9EE1FDA02663F62900349780 /* AddPizzaViewController.swift in Sources */,
 				9EE1FD892662A27500349780 /* SceneDelegate.swift in Sources */,
-				9EE1FDA62663F69700349780 /* EmployeeManageHomeViewController.swift in Sources */,
+				9EE1FDA62663F69700349780 /* EmployeeAdminPageViewController.swift in Sources */,
 				9EE1FDA32663F65200349780 /* ReviewCheckViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
