@@ -495,7 +495,7 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="65" id="xGL-pz-v38">
                                         <rect key="frame" x="0.0" y="28" width="414" height="65"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xGL-pz-v38" id="NeK-x7-quX">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="InfoListTableViewCell" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xGL-pz-v38" id="NeK-x7-quX" customClass="InfoListTableViewCell" customModule="pizzaAdministratorApp" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -518,6 +518,10 @@
                                                 <constraint firstItem="mjD-Z6-RL0" firstAttribute="centerY" secondItem="NeK-x7-quX" secondAttribute="centerY" id="qRn-XV-Y1m"/>
                                                 <constraint firstItem="aKY-rl-fWj" firstAttribute="leading" secondItem="mjD-Z6-RL0" secondAttribute="trailing" constant="50" id="w1H-OL-ezp"/>
                                             </constraints>
+                                            <connections>
+                                                <outlet property="name" destination="aKY-rl-fWj" id="VXb-Oc-9E4"/>
+                                                <outlet property="number" destination="mjD-Z6-RL0" id="RaF-Va-VF5"/>
+                                            </connections>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>

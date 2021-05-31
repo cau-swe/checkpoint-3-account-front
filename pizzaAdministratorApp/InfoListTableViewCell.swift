@@ -9,6 +9,9 @@ import UIKit
 
 class InfoListTableViewCell: UITableViewCell {
 
+    @IBOutlet var name: UILabel!
+    @IBOutlet var number: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
