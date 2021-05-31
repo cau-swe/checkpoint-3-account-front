@@ -208,8 +208,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" restorationIdentifier="MenuAdminPageViewController" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dMc-aA-sdZ">
-                                <rect key="frame" x="0.0" y="220" width="414" height="563"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="MenuAdminPageViewController" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dMc-aA-sdZ">
+                                <rect key="frame" x="0.0" y="220" width="414" height="552"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GeneralTableViewCell" rowHeight="117" id="d25-FI-DzJ" customClass="GeneralTableViewCell" customModule="pizzaAdministratorApp" customModuleProvider="target">
@@ -253,6 +253,9 @@
                                                     <state key="normal" title="Edit">
                                                         <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="editButtonPressed:" destination="d25-FI-DzJ" eventType="touchUpInside" id="FiM-Dn-Hdt"/>
+                                                    </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whf-L1-0qz">
                                                     <rect key="frame" x="157" y="40.5" width="230" height="20.5"/>
@@ -298,6 +301,7 @@
                                         </state>
                                         <connections>
                                             <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sic-hu-MBO"/>
+                                            <action selector="menuAddButtonPressed:" destination="5Ia-yH-olv" eventType="touchUpInside" id="TBS-mD-mef"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20P-HS-cax">
@@ -321,7 +325,7 @@
                         <constraints>
                             <constraint firstItem="dMc-aA-sdZ" firstAttribute="trailing" secondItem="t6P-TL-irI" secondAttribute="trailing" id="14C-r6-73j"/>
                             <constraint firstItem="2mL-Ho-c0K" firstAttribute="top" secondItem="t6P-TL-irI" secondAttribute="top" constant="80" id="KgA-Zd-FxP"/>
-                            <constraint firstItem="dMc-aA-sdZ" firstAttribute="bottom" secondItem="t6P-TL-irI" secondAttribute="bottom" id="Qiy-sf-Vuf"/>
+                            <constraint firstItem="dMc-aA-sdZ" firstAttribute="bottom" secondItem="cdc-Kt-Xcp" secondAttribute="top" constant="-20" id="Qiy-sf-Vuf"/>
                             <constraint firstItem="dMc-aA-sdZ" firstAttribute="top" secondItem="2mL-Ho-c0K" secondAttribute="bottom" constant="60" id="TdX-rW-iag"/>
                             <constraint firstItem="t6P-TL-irI" firstAttribute="bottom" secondItem="cdc-Kt-Xcp" secondAttribute="bottom" constant="20" id="e34-dH-jbn"/>
                             <constraint firstItem="t6P-TL-irI" firstAttribute="trailing" secondItem="cdc-Kt-Xcp" secondAttribute="trailing" constant="20" id="fXx-u6-0d6"/>
@@ -384,7 +388,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="설명" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yES-t5-d8M">
-                                <rect key="frame" x="40" y="587" width="35" height="24"/>
+                                <rect key="frame" x="50" y="587" width="35" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -399,13 +403,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6PX-hk-bWm">
-                                <rect key="frame" x="117" y="587" width="247" height="100"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="설명을 작성해주세요." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6PX-hk-bWm">
+                                <rect key="frame" x="127" y="587" width="237" height="100"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="wXy-ec-wGe"/>
                                 </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -420,6 +423,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="addButtonPressed:" destination="rT6-ST-Df4" eventType="touchUpInside" id="Y8L-Rs-6QV"/>
                                     <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gO0-s6-R9S"/>
                                 </connections>
                             </button>
@@ -441,7 +445,7 @@
                             <constraint firstItem="GdA-gA-IKh" firstAttribute="leading" secondItem="ZHo-hE-g79" secondAttribute="trailing" constant="46" id="Phy-0w-WH4"/>
                             <constraint firstItem="6PX-hk-bWm" firstAttribute="leading" secondItem="yES-t5-d8M" secondAttribute="trailing" constant="42" id="Tm3-sb-Sw6"/>
                             <constraint firstItem="yES-t5-d8M" firstAttribute="top" secondItem="ZHo-hE-g79" secondAttribute="bottom" constant="30" id="VdY-4Y-E51"/>
-                            <constraint firstItem="yES-t5-d8M" firstAttribute="leading" secondItem="T08-OX-EDJ" secondAttribute="leading" constant="40" id="XEl-dh-eA7"/>
+                            <constraint firstItem="yES-t5-d8M" firstAttribute="leading" secondItem="T08-OX-EDJ" secondAttribute="leading" constant="50" id="XEl-dh-eA7"/>
                             <constraint firstItem="aOT-3A-I4l" firstAttribute="top" secondItem="WRO-er-YcI" secondAttribute="top" id="Xec-tF-DTd"/>
                             <constraint firstItem="T08-OX-EDJ" firstAttribute="trailing" secondItem="aOT-3A-I4l" secondAttribute="trailing" constant="50" id="c3c-Ie-g2C"/>
                             <constraint firstItem="EXV-FM-Mey" firstAttribute="top" secondItem="8m8-mZ-LRU" secondAttribute="bottom" constant="40" id="cM7-1J-SgI"/>
@@ -459,6 +463,12 @@
                             <constraint firstItem="aOT-3A-I4l" firstAttribute="leading" secondItem="WRO-er-YcI" secondAttribute="trailing" constant="46" id="yQb-Hl-cnT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="detailTextView" destination="6PX-hk-bWm" id="bdd-zV-bhf"/>
+                        <outlet property="headerLabel" destination="8m8-mZ-LRU" id="Snz-ju-8HG"/>
+                        <outlet property="menuImage" destination="EXV-FM-Mey" id="hTf-aG-RDJ"/>
+                        <outlet property="nameTextField" destination="aOT-3A-I4l" id="mv3-eb-aJe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NZK-xA-q9p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

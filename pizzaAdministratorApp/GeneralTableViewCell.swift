@@ -13,6 +13,11 @@ class GeneralTableViewCell: UITableViewCell {
     @IBOutlet var pizzaDetail: UILabel!
     @IBOutlet var pizzaImage: UIImageView!
     
+    @IBAction func editButtonPressed(_ sender: Any) {
+    
+        
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
