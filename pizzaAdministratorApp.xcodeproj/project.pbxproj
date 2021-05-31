@@ -19,6 +19,7 @@
 		9EE1FDA62663F69700349780 /* EmployeeAdminPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1FDA52663F69700349780 /* EmployeeAdminPageViewController.swift */; };
 		9EE1FDA92663F6D500349780 /* EmployeeInfoInsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1FDA82663F6D500349780 /* EmployeeInfoInsertViewController.swift */; };
 		9EE1FDAC26647A0800349780 /* MenuAdminPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1FDAB26647A0800349780 /* MenuAdminPageViewController.swift */; };
+		9EE1FDB02664820D00349780 /* GeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE1FDAF2664820D00349780 /* GeneralTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9EE1FDA52663F69700349780 /* EmployeeAdminPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeAdminPageViewController.swift; sourceTree = "<group>"; };
 		9EE1FDA82663F6D500349780 /* EmployeeInfoInsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeInfoInsertViewController.swift; sourceTree = "<group>"; };
 		9EE1FDAB26647A0800349780 /* MenuAdminPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAdminPageViewController.swift; sourceTree = "<group>"; };
+		9EE1FDAF2664820D00349780 /* GeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				9EE1FD8F2662A27700349780 /* Assets.xcassets */,
 				9EE1FD912662A27700349780 /* LaunchScreen.storyboard */,
 				9EE1FD942662A27700349780 /* Info.plist */,
+				9EE1FDAF2664820D00349780 /* GeneralTableViewCell.swift */,
 			);
 			path = pizzaAdministratorApp;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE1FDB02664820D00349780 /* GeneralTableViewCell.swift in Sources */,
 				9EE1FD8B2662A27500349780 /* LoginViewController.swift in Sources */,
 				9EE1FDA92663F6D500349780 /* EmployeeInfoInsertViewController.swift in Sources */,
 				9EE1FD872662A27500349780 /* AppDelegate.swift in Sources */,

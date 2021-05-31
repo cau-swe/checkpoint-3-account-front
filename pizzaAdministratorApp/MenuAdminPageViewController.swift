@@ -9,6 +9,8 @@ import UIKit
 
 class MenuAdminPageViewController: UIViewController {
 
+    @IBOutlet var menuTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

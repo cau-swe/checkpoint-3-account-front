@@ -282,6 +282,9 @@
                             <constraint firstItem="2mL-Ho-c0K" firstAttribute="centerX" secondItem="t6P-TL-irI" secondAttribute="centerX" id="zOp-BG-dlC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="menuTableView" destination="dMc-aA-sdZ" id="Oyk-kI-Yg2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TTs-Ep-LIY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
