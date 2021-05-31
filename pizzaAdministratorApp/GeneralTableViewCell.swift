@@ -10,6 +10,7 @@ import UIKit
 class GeneralTableViewCell: UITableViewCell {
 
     @IBOutlet var pizzaName: UILabel!
+    @IBOutlet var pizzaDetail: UILabel!
     @IBOutlet var pizzaImage: UIImageView!
     
     override func awakeFromNib() {

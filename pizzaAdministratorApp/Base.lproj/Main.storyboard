@@ -277,6 +277,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="pizzaDetail" destination="whf-L1-0qz" id="HJf-nC-XBn"/>
                                             <outlet property="pizzaImage" destination="rte-uu-40V" id="tfI-K4-2ZX"/>
                                             <outlet property="pizzaName" destination="vp9-wa-cIC" id="XY0-gt-XT8"/>
                                         </connections>
@@ -363,9 +364,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EXV-FM-Mey">
-                                <rect key="frame" x="87" y="190" width="240" height="225"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EXV-FM-Mey">
+                                <rect key="frame" x="97" y="200" width="220" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="2M9-AO-Ht5"/>
+                                    <constraint firstAttribute="height" constant="220" id="5Fx-Cu-gFW"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WRO-er-YcI">
                                 <rect key="frame" x="46" y="459" width="35" height="24"/>
@@ -422,12 +426,22 @@
                                     <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gO0-s6-R9S"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="메뉴 추가하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8m8-mZ-LRU">
+                                <rect key="frame" x="125.5" y="124" width="163" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="T08-OX-EDJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="T08-OX-EDJ" firstAttribute="trailing" secondItem="qI3-1B-eLQ" secondAttribute="trailing" constant="20" id="2Bb-lu-mIy"/>
+                            <constraint firstItem="EXV-FM-Mey" firstAttribute="top" secondItem="8m8-mZ-LRU" secondAttribute="bottom" constant="40" id="cM7-1J-SgI"/>
+                            <constraint firstItem="EXV-FM-Mey" firstAttribute="centerX" secondItem="T08-OX-EDJ" secondAttribute="centerX" id="cn9-GS-1l5"/>
                             <constraint firstItem="qI3-1B-eLQ" firstAttribute="leading" secondItem="T08-OX-EDJ" secondAttribute="leading" constant="20" id="g0L-6A-kNM"/>
+                            <constraint firstItem="8m8-mZ-LRU" firstAttribute="centerX" secondItem="T08-OX-EDJ" secondAttribute="centerX" id="st4-6V-vZh"/>
+                            <constraint firstItem="8m8-mZ-LRU" firstAttribute="top" secondItem="T08-OX-EDJ" secondAttribute="top" constant="80" id="ufx-Y7-6iH"/>
                             <constraint firstItem="T08-OX-EDJ" firstAttribute="bottom" secondItem="qI3-1B-eLQ" secondAttribute="bottom" constant="29" id="vHF-Ff-vBf"/>
                         </constraints>
                     </view>
