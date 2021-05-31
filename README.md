@@ -38,7 +38,7 @@
 
 | 화면 | |
 |:-----:| :---- |
-| <img src="https://user-images.githubusercontent.com/37579661/120200641-84c33780-c25f-11eb-9a18-ec6097372cd0.PNG" width= 300> | <h2>Login </h2> <br> 관리자 아이디와 비밀번호를 입력하려 로그인을 할 수 있는 화면입니다.  |
+| <img src="https://user-images.githubusercontent.com/37579661/120200641-84c33780-c25f-11eb-9a18-ec6097372cd0.PNG" width= 300> | <h2>Login </h2> <br> 관리자 아이디와 비밀번호를 입력하여 로그인을 할 수 있는 화면입니다. <h3>Log in(UC-1)</h3>|
 
 <br>
 
@@ -48,7 +48,7 @@
 
 | 화면 | |
 |:-----:| :---- |
-| <img src="https://user-images.githubusercontent.com/37579661/120200928-d5d32b80-c25f-11eb-9a6d-43d4baa951a6.PNG" width= 300> | <h2>Home </h2> <br> 앱의 홈 화면으로서, <br> '메뉴', '직원', '고객' 그리고 '주문 기록'을 관리하는 페이지로 <br> 각각 이동할 수 있는 화면입니다.  |
+| <img src="https://user-images.githubusercontent.com/37579661/120200928-d5d32b80-c25f-11eb-9a6d-43d4baa951a6.PNG" width= 300> | <h2>Home </h2> <br> 앱의 홈 화면으로서, <br> '메뉴', '직원', '고객' 그리고 '주문 기록'을 관리하는 페이지로 <br> 각각 이동할 수 있는 화면입니다. <h3> View Pizza Information (UC-15)<br> View Employee Information (UC-16)<br> View Customer Information (UC-17)<br> View Order Records(UC-5) </h3>|
 
 <br>
 
@@ -58,7 +58,7 @@
 
 | 화면 | |
 |:-----:| :---- |
-| <img src="https://user-images.githubusercontent.com/37579661/120201211-26e31f80-c260-11eb-99d9-eca150cc5c22.PNG" width= 300> | <h2>메뉴 정보 </h2> <br> 메뉴들의 정보를 확인하고 <br> 필요시 메뉴을 추가, 삭제, 수정을 할 수 있는 화면입니다.  |
+| <img src="https://user-images.githubusercontent.com/37579661/120201211-26e31f80-c260-11eb-99d9-eca150cc5c22.PNG" width= 300> | <h2>메뉴 정보 </h2> <br> 메뉴들의 정보를 확인하고 <br> 필요시 메뉴을 추가, 삭제, 수정을 할 수 있는 화면입니다. <h3>Manage Pizza(UC-10)<br>Add Pizza(UC-2)<br> Edit Pizza(UC-3)<br> Delete Pizza(UC-4)</h3> |
 
 
 <br>
@@ -69,7 +69,7 @@
 
 | 화면 | |
 |:-----:| :---- |
-| <img src="https://user-images.githubusercontent.com/37579661/120201428-6578da00-c260-11eb-9f48-bf9a95d3296a.PNG" width= 300> | <h2>메뉴 수정 </h2> <br> 메뉴를 수정 할 수 있는화면입니다. <br> 이름과 가격은 text field, 그리고 설명은 text view 로 구성하여 개발하였습니다.  |
+| <img src="https://user-images.githubusercontent.com/37579661/120201428-6578da00-c260-11eb-9f48-bf9a95d3296a.PNG" width= 300> | <h2>메뉴 수정 </h2> <br> 메뉴를 수정 할 수 있는화면입니다. <br> 이름과 가격은 text field, 그리고 설명은 text view 로 구성하여 개발하였습니다. <h3>Edit Pizza(UC-3) </h3>|
 
 
 <br>
@@ -80,7 +80,7 @@
 
 | 화면 | |
 |:-----:| :---- |
-| <img src="https://user-images.githubusercontent.com/37579661/120201583-935e1e80-c260-11eb-86ca-c05470abdf75.PNG" width= 300> | <h2>메뉴 추가 </h2> <br> 메뉴를 추가 할 수 있는화면입니다. <br> 메뉴를 추가할 때에 사진, 이름 가격 그리고 설명을 추가할 수 있습니다. |  
+| <img src="https://user-images.githubusercontent.com/37579661/120201583-935e1e80-c260-11eb-86ca-c05470abdf75.PNG" width= 300> | <h2>메뉴 추가 </h2> <br> 메뉴를 추가 할 수 있는화면입니다. <br> 메뉴를 추가할 때에 사진, 이름 가격 그리고 설명을 추가할 수 있습니다. <h3>Add Pizza(UC-2) </h3>|  
 
 <br>
 
@@ -90,7 +90,7 @@
 
 | 화면 |  | |
 |:-----:|:-----:|:---- |
-| <img src="https://user-images.githubusercontent.com/37579661/120201702-b38ddd80-c260-11eb-803c-dfe78fd9b5e1.PNG" width= 300> | <img src="https://user-images.githubusercontent.com/37579661/120201978-ff408700-c260-11eb-87c3-b46b33f15665.PNG" width= 300>| <h2>직원, 고객 정보 화면 </h2> <br> 직원과 고객 정보를 확인 할 수 있는 화면입니다.  |  
+| <img src="https://user-images.githubusercontent.com/37579661/120201702-b38ddd80-c260-11eb-803c-dfe78fd9b5e1.PNG" width= 300> | <img src="https://user-images.githubusercontent.com/37579661/120201978-ff408700-c260-11eb-87c3-b46b33f15665.PNG" width= 300>| <h2>직원, 고객 정보 화면 </h2> <br> 직원과 고객 정보를 확인 할 수 있는 화면입니다. <h3>View Employee Information (UC-16)<br>View Customer Information (UC-17)</h3> |  
 
 
 
@@ -102,7 +102,7 @@
 
 | 화면 |  | 
 |:-----:|:---- |
-| <img src="https://user-images.githubusercontent.com/37579661/120202098-239c6380-c261-11eb-8c01-6e9a3c1cb226.PNG" width= 300> | <h2> 주문 기록 확인 화면 </h2> <br> 그동안의 주문 기록을 확인할 수 있는 화면입니다.  |  
+| <img src="https://user-images.githubusercontent.com/37579661/120202098-239c6380-c261-11eb-8c01-6e9a3c1cb226.PNG" width= 300> | <h2> 주문 기록 확인 화면 </h2> <br> 그동안의 주문 기록을 확인할 수 있는 화면입니다. <h3>View Order Records(UC-5)</h3>|  
 
 
 
