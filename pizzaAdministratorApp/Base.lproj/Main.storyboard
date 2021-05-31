@@ -102,6 +102,9 @@
                                 <state key="normal" title="메뉴 정보">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="menuAdminPageButtonPressed:" destination="3yf-SK-s87" eventType="touchUpInside" id="KV4-la-2zX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFN-u3-21C">
                                 <rect key="frame" x="60" y="454" width="130" height="100"/>
@@ -114,6 +117,9 @@
                                 <state key="normal" title="고객 정보">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="CustomerAdminPageButtonPressed:" destination="3yf-SK-s87" eventType="touchUpInside" id="Hk2-Go-glc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNd-a5-tBK">
                                 <rect key="frame" x="224" y="454" width="130" height="100"/>
@@ -126,6 +132,9 @@
                                 <state key="normal" title="주문 기록">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="orderAdminPageButtonPressed:" destination="3yf-SK-s87" eventType="touchUpInside" id="Blt-t2-Foe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PK-m5-Iks">
                                 <rect key="frame" x="224" y="334" width="130" height="100"/>
@@ -138,6 +147,9 @@
                                 <state key="normal" title="직원 정보">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="employeeAdminPageButtonPressed:" destination="3yf-SK-s87" eventType="touchUpInside" id="17f-os-llt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6NP-Ls-mjm">
                                 <rect key="frame" x="20" y="762" width="374" height="50"/>
