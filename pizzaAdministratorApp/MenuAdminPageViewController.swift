@@ -10,6 +10,7 @@ import UIKit
 class MenuAdminPageViewController: UIViewController{
 
     let menuList:[String] = ["치즈 피자", "베이컨 피자", "치킨 피자", "페퍼로니 피자", "포테이토 피자"]
+    let imageList: [String] = []
     
     @IBOutlet var menuTableView: UITableView!
     
