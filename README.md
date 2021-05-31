@@ -48,5 +48,6 @@
 
 | 화면 | |
 |:-----:| :---- |
-| <img src="https://user-images.githubusercontent.com/37579661/120200928-d5d32b80-c25f-11eb-9a6d-43d4baa951a6.PNG" width= 300> | <h2>Home </h2> <br> 앱의 홈 화면으로서, '메뉴', '직원', '고객' 그리고 '주문 기록'을 관리하는 페이지로 각각 이동할 수 있는 화면입니다.  |
+| <img src="https://user-images.githubusercontent.com/37579661/120200928-d5d32b80-c25f-11eb-9a6d-43d4baa951a6.PNG" width= 300> | <h2>Home </h2> <br> 앱의 홈 화면으로서, <br> '메뉴', '직원', '고객' 그리고 '주문 기록'을 관리하는 페이지로 <br> 각각 이동할 수 있는 화면입니다.  |
+
 
