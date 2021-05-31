@@ -536,6 +536,7 @@
                     </view>
                     <connections>
                         <outlet property="headerLabel" destination="z6r-dB-n29" id="uwF-77-fpH"/>
+                        <outlet property="infoListTableView" destination="d3D-Hh-9Qo" id="HhC-tf-ANn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Zm-q5-MLE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
