@@ -11,7 +11,8 @@ class EmployeeAdminPageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //navigation bar 없애기
+        self.navigationController?.isNavigationBarHidden = true
     
     }
 
