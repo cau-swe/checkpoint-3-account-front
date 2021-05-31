@@ -25,7 +25,6 @@ class AddPizzaViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //navigation bar 없애기
-        self.navigationController?.isNavigationBarHidden = true
         if let isAdding = isAddingOrEditing {
             if isAdding {
                 headerLabel.text = "메뉴 추가하기"

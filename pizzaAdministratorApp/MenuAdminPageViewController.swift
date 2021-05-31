@@ -28,6 +28,8 @@ class MenuAdminPageViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = ""
+
         menuTableView.dataSource = self
         menuTableView.delegate = self
     }
