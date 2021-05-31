@@ -194,10 +194,10 @@
             </objects>
             <point key="canvasLocation" x="1426.0869565217392" y="57.589285714285708"/>
         </scene>
-        <!--Menu Admin Page View Controller-->
+        <!--MenuAdminPageViewController-->
         <scene sceneID="8do-64-xH6">
             <objects>
-                <viewController id="5Ia-yH-olv" customClass="MenuAdminPageViewController" customModule="pizzaAdministratorApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MenuAdminPageViewController" title="MenuAdminPageViewController" id="5Ia-yH-olv" customClass="MenuAdminPageViewController" customModule="pizzaAdministratorApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s0g-Kh-ALk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -208,7 +208,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dMc-aA-sdZ">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="MenuAdminPageViewController" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dMc-aA-sdZ">
                                 <rect key="frame" x="0.0" y="220" width="414" height="642"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
