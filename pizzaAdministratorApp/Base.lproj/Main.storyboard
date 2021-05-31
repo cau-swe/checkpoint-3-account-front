@@ -267,6 +267,10 @@
                                                 <constraint firstAttribute="bottom" secondItem="Z4C-cm-iOl" secondAttribute="bottom" constant="10" id="vlJ-Si-OrD"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="pizzaImage" destination="rte-uu-40V" id="tfI-K4-2ZX"/>
+                                            <outlet property="pizzaName" destination="vp9-wa-cIC" id="XY0-gt-XT8"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
