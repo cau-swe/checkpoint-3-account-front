@@ -9,6 +9,7 @@ import UIKit
 
 class InfoListViewController: UIViewController {
 
+    @IBOutlet var headerLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
