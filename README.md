@@ -84,13 +84,15 @@
 
 <br>
 
-## 📱 직원 정보 화면 
+## 📱 직원, 고객 정보 화면 
 
 <br>
 
-| 화면 | |
-|:-----:| :---- |
-| <img src="https://user-images.githubusercontent.com/37579661/120201702-b38ddd80-c260-11eb-803c-dfe78fd9b5e1.PNG" width= 300> | <h2>직원 정보 화면 </h2> <br> 직원 정보를 확인 할 수 있는 화면입니다.  |  
+| 화면 |  | |
+|:-----:|:-----:|:---- |
+| <img src="https://user-images.githubusercontent.com/37579661/120201702-b38ddd80-c260-11eb-803c-dfe78fd9b5e1.PNG" width= 300> | <img src="https://user-images.githubusercontent.com/37579661/120201978-ff408700-c260-11eb-87c3-b46b33f15665.PNG" width= 300>| <h2>직원, 고객 정보 화면 </h2> <br> 직원과 고객 정보를 확인 할 수 있는 화면입니다.  |  
+
+
 
 
 
