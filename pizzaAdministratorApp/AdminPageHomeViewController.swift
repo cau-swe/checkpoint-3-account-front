@@ -8,20 +8,34 @@
 import UIKit
 
 class AdminPageHomeViewController: UIViewController {
-
+    
     @IBAction func menuAdminPageButtonPressed(_ sender: Any) {
         guard let menuAdminPageViewController
- = self.storyboard?.instantiateViewController(identifier: "MenuAdminPageViewController") as? MenuAdminPageViewController else { return }
+                = self.storyboard?.instantiateViewController(identifier: "MenuAdminPageViewController") as? MenuAdminPageViewController else { return }
         
         // 다음 뷰로 연결
         self.navigationController?.pushViewController(        menuAdminPageViewController, animated: true)
     }
     @IBAction func employeeAdminPageButtonPressed(_ sender: Any) {
-        
+        guard let infoListViewController
+                = self.storyboard?.instantiateViewController(identifier: "InfoListViewController") as? InfoListViewController else { return }
+        infoListViewController.listCategory = 1
+        // 다음 뷰로 연결
+        self.navigationController?.pushViewController(infoListViewController, animated: true)
     }
     @IBAction func CustomerAdminPageButtonPressed(_ sender: Any) {
+        guard let infoListViewController
+                = self.storyboard?.instantiateViewController(identifier: "InfoListViewController") as? InfoListViewController else { return }
+        infoListViewController.listCategory = 2
+        // 다음 뷰로 연결
+        self.navigationController?.pushViewController(infoListViewController, animated: true)
     }
     @IBAction func orderAdminPageButtonPressed(_ sender: Any) {
+        guard let infoListViewController
+                = self.storyboard?.instantiateViewController(identifier: "InfoListViewController") as? InfoListViewController else { return }
+        infoListViewController.listCategory = 3
+        // 다음 뷰로 연결
+        self.navigationController?.pushViewController(infoListViewController, animated: true)
     }
     
     override func viewDidLoad() {

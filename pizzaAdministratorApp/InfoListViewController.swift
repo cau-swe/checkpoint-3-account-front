@@ -48,7 +48,9 @@ class InfoListViewController: UIViewController {
 
 extension InfoListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        list.count
+        print(list)
+        
+        return list.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -56,8 +58,28 @@ extension InfoListViewController: UITableViewDataSource {
             return UITableViewCell()
         }
         cell.selectionStyle = .none
-        cell.number.text = String(indexPath.row)
-        cell.name.text = list[indexPath.row]
+        if let category = listCategory {
+            switch category {
+            case 1: // 직원정보
+                cell.number.text = ""
+                cell.name.text = employeeInfoList[indexPath.row]
+                print("hi")
+                print(employeeInfoList[indexPath.row])
+
+            case 2: // 고객 정보
+                cell.number.text = ""
+                cell.name.text = customerInfoList[indexPath.row]
+
+            case 3: // 주문 기록
+                cell.number.text = ""
+                cell.name.text = orderInfoList[indexPath.row]
+            default:
+                print("no")
+            }
+        }
+        
+        print(list[indexPath.row])
+
         return cell
         
     }
