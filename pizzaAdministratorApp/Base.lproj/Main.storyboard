@@ -50,7 +50,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Gjm-SB-FlZ"/>
                                 </constraints>
-                                <state key="normal" title="로그인하기!">
+                                <state key="normal" title="로그인">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -91,21 +91,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6NP-Ls-mjm">
-                                <rect key="frame" x="20" y="762" width="374" height="50"/>
-                                <color key="backgroundColor" systemColor="systemGray2Color"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="G9t-YV-H9o"/>
-                                </constraints>
-                                <state key="normal" title="로그인하기!">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c4j-oj-Kud"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wpG-Kg-TYO">
-                                <rect key="frame" x="60" y="294" width="130" height="100"/>
+                                <rect key="frame" x="60" y="334" width="130" height="100"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="5hc-Gb-gdi"/>
@@ -117,7 +104,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFN-u3-21C">
-                                <rect key="frame" x="60" y="414" width="130" height="100"/>
+                                <rect key="frame" x="60" y="454" width="130" height="100"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="dCn-WK-b1M"/>
@@ -129,7 +116,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNd-a5-tBK">
-                                <rect key="frame" x="224" y="414" width="130" height="100"/>
+                                <rect key="frame" x="224" y="454" width="130" height="100"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="37s-t1-fzG"/>
@@ -141,7 +128,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PK-m5-Iks">
-                                <rect key="frame" x="224" y="294" width="130" height="100"/>
+                                <rect key="frame" x="224" y="334" width="130" height="100"/>
                                 <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="ETN-57-NpS"/>
@@ -152,19 +139,40 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6NP-Ls-mjm">
+                                <rect key="frame" x="20" y="762" width="374" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="G9t-YV-H9o"/>
+                                </constraints>
+                                <state key="normal" title="로그아웃">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c4j-oj-Kud"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="관리 Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45h-1G-Rhk">
+                                <rect key="frame" x="138.5" y="164" width="137" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ncA-N7-b1s"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gFN-u3-21C" firstAttribute="leading" secondItem="ncA-N7-b1s" secondAttribute="leading" constant="60" id="2cC-dG-aL7"/>
-                            <constraint firstItem="5PK-m5-Iks" firstAttribute="top" secondItem="ncA-N7-b1s" secondAttribute="top" constant="250" id="67L-bM-bbe"/>
+                            <constraint firstItem="5PK-m5-Iks" firstAttribute="top" secondItem="ncA-N7-b1s" secondAttribute="top" constant="290" id="67L-bM-bbe"/>
                             <constraint firstItem="ncA-N7-b1s" firstAttribute="trailing" secondItem="5PK-m5-Iks" secondAttribute="trailing" constant="60" id="P0U-nD-Y7y"/>
+                            <constraint firstItem="45h-1G-Rhk" firstAttribute="top" secondItem="ncA-N7-b1s" secondAttribute="top" constant="120" id="UnV-QA-Wy2"/>
+                            <constraint firstItem="45h-1G-Rhk" firstAttribute="centerX" secondItem="ncA-N7-b1s" secondAttribute="centerX" id="XaE-8h-CJd"/>
                             <constraint firstItem="ncA-N7-b1s" firstAttribute="bottom" secondItem="6NP-Ls-mjm" secondAttribute="bottom" constant="50" id="YEH-DC-Fyc"/>
                             <constraint firstItem="wpG-Kg-TYO" firstAttribute="leading" secondItem="ncA-N7-b1s" secondAttribute="leading" constant="60" id="b1X-mp-NuS"/>
                             <constraint firstItem="ncA-N7-b1s" firstAttribute="trailing" secondItem="6NP-Ls-mjm" secondAttribute="trailing" constant="20" id="d1j-vl-RKW"/>
                             <constraint firstItem="bNd-a5-tBK" firstAttribute="top" secondItem="5PK-m5-Iks" secondAttribute="bottom" constant="20" id="ksN-I1-EAi"/>
                             <constraint firstItem="6NP-Ls-mjm" firstAttribute="leading" secondItem="ncA-N7-b1s" secondAttribute="leading" constant="20" id="pcv-EO-1Yq"/>
-                            <constraint firstItem="wpG-Kg-TYO" firstAttribute="top" secondItem="ncA-N7-b1s" secondAttribute="top" constant="250" id="rJd-Cy-4Ea"/>
+                            <constraint firstItem="wpG-Kg-TYO" firstAttribute="top" secondItem="ncA-N7-b1s" secondAttribute="top" constant="290" id="rJd-Cy-4Ea"/>
                             <constraint firstItem="ncA-N7-b1s" firstAttribute="trailing" secondItem="bNd-a5-tBK" secondAttribute="trailing" constant="60" id="sBC-56-xWN"/>
                             <constraint firstItem="gFN-u3-21C" firstAttribute="top" secondItem="wpG-Kg-TYO" secondAttribute="bottom" constant="20" id="z3k-X9-OPZ"/>
                         </constraints>
