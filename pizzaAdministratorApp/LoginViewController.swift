@@ -9,6 +9,14 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBAction func loginButtonPressed(_ sender: Any) {
+        guard let adminPageHomeViewController = self.storyboard?.instantiateViewController(identifier: "AdminPageHomeViewController") as? AdminPageHomeViewController else {
+            return
+        }
+        
+        // 다음 뷰로 연결
+        self.navigationController?.pushViewController(adminPageHomeViewController, animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
     }
